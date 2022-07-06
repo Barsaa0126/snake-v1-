@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model Marginand Padding</title>
+    <style>
+        /* CSS reset */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .box {
+            background: #f4f4f4 ;
+            border: 2px #777 solid;
+            width: 600px;
+            /* padding on all sides */
+            padding: 20px;
+
+            /* padding per sides */
+            padding-top: 30px ;
+            padding-right: 40px;
+            padding-bottom: 30px;
+            padding-left: 40px;
+
+            /* Short = top, right, bottom, left */
+            padding: 10px 20px 10px 20px;
+
+            padding: 10px 20px;
+
+            /* Margin on all sides */
+            margin: 20px;
+
+             /* padding per sides */
+            margin-top: 30px ;
+            margin-right: 40px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+
+            /* Short = top, right, bottom, left */
+            padding: 10px 20px 10px 20px;
+
+            padding: 10px 20px;
+
+
+
+        }
+        .box {
+            padding-bottom: 10px;
+        }
+        .box p {
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Хайрцаг 1</h3>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cum libero, reprehenderit dolores saepe nobis corporis officia veritatis molestias rem!</P>
+    </div>
+    <div class="box">
+        <h3>Хайрцаг 2</h3>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cum libero, reprehenderit dolores saepe nobis corporis officia veritatis molestias rem!</P>
+    </div>
+</body>
+</html>

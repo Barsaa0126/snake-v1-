@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+</head>
+<style>
+    /* Element selector */
+    body{
+        background-color: aquamarine;
+
+    }
+    /*. бол class ийг зориулагдсан*/
+    .primaryheading{
+        color: blue;}
+    /* # бол id зориулагдсан */
+    #welcome{
+        background-color: gray;
+    }
+    /* Multiple Selectors */
+    #welcome, #about{
+        border: 1px solid darkgrey;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    /* Nested selectors */
+    #welcome p{
+        font-size: 20px;
+    }
+    #about{
+        color: darkblue;
+    }
+</style>
+<body>
+    <div id="welcome">
+        <h2 class="primaryheading">Тавтай морил</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto molestias tempore placeat necessitatibus officia hic voluptates, doloribus voluptate sed!</p>
+    </div>
+    <div id="about">
+        <h2>Бидний тухай</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum?</p>
+    </div >
+</body>
+</html>
